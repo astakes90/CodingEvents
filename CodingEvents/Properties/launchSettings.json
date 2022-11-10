@@ -11,7 +11,7 @@
     "CodingEvents": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7048;http://localhost:5154",
+      "applicationUrl": "http://localhost:54660",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
