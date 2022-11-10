@@ -65,7 +65,7 @@ namespace CodingEvents.Controllers
 
         public IActionResult Delete()
         {
-            ViewBag.events = context.Events.ToList();
+            ViewBag.events = context.Events.AsNoTracking().ToList();
             return View();
         }
 
